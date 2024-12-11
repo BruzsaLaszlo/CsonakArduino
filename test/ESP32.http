@@ -1,0 +1,24 @@
+GET http://httpbin.org/ip
+Accept: application/json
+
+###
+POST http://192.168.0.66/setStatus
+Content-Type: application/json
+
+{
+  "led1Status": 12,
+  "led3Status": 100
+}
+
+###
+### GET request to example server
+GET http://192.168.0.66/
+    ?generated-in=IntelliJ IDEA
+
+###
+
+### GET request to example server
+GET http://192.168.0.66/getValues
+
+###
+
